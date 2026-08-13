@@ -1,15 +1,15 @@
-# Ev Qiymət Proqnozu — Streamlit Demo
+# House Price Predictor — Streamlit Demo
 
-## İşə salmaq
-1. `final_price_model.joblib` faylını bu qovluğa (app.py ilə eyni yerə) qoy
-   (checkpoint6 notebook-u işlədib faylı export edir, ya da öz joblib faylını buraya at).
-2. Kitabxanaları qur:
+## Getting started
+1. Place `final_price_model.joblib` in this same folder (next to `app.py`)
+   (run the checkpoint6 notebook to export the file, or drop in your own joblib file).
+2. Install the required libraries:
    ```
    pip install -r requirements.txt
    ```
-3. App-i başlat:
+3. Start the app:
    ```
    streamlit run app.py
    ```
 
-Bu qədər — brauzerdə açılan formu doldurub "Qiyməti hesabla" düyməsinə basmaq kifayətdir.
+That's it — just fill in the form that opens in your browser and click "Estimate price".
